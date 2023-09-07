@@ -15,6 +15,9 @@ address {
 
 body {
   display: flex;
+  flex-direction: column;
+  /* Delete */
+  background-color: aquamarine;
 }
 
 /* header */
@@ -22,11 +25,13 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
-  width: 100%;
+  /* width: 100%; */
   margin: 92px 49px 92px 51px;
   font-weight: 400;
   font-size: 18px;
   line-height: 135%;
+  /* Delete */
+  background-color: bisque;
 }
 
 .header__links-list {
@@ -52,4 +57,60 @@ body {
   display: block;
   width: 148px;
   height: 105px;
+}
+
+/* main */
+
+main {
+  display: flex;
+  flex-direction: column;
+  /* Delete */
+  background-color: blue;
+  min-width: 1200px;
+  min-height: 600px;
+}
+
+.cover {
+  display: flex;
+  background-image: url(../images/cover.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  width: 100%;
+  /* Delete */
+  background-color: blueviolet;
+  min-height: 200px;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.60);
+  width: 100%;
+}
+
+.cover__title {
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 115%;
+  letter-spacing: 30px;
+  text-transform: uppercase;
+}
+
+.aligned-text {
+  display: block;
+  margin: 165px 50px 0;
+}
+
+.aligned-text_center {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.aligned-text_right {
+  text-align: right;
+  margin: 0 50px 147px;
+}
+
+.letter-spacing-extended {
+  display: inline-block;
+  letter-spacing: 60px;
 }
