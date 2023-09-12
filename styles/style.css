@@ -27,10 +27,8 @@ body {
   flex-direction: row;
   justify-content: space-between;
   width: 93%;
-  /* margin: 92px 49px 92px 51px; */
   margin-top: 6.3%;
   margin-left: 3.2%;
-  /* margin-right: 3.7%; */
   font-weight: 400;
   font-size: 18px;
   line-height: 135%;
@@ -53,13 +51,11 @@ body {
 }
 
 .header__links-list li {
-  /* margin-top: 43px; */
   margin-top: 11.2%;
   margin-left: 33px;
 }
 
 .header__links-list li:first-child {
-  /* margin: 47px 0 0; */
   margin-left: auto;
   list-style: none;
 }
@@ -69,20 +65,13 @@ body {
 }
 
 .header__logo {
-  /* display: block;
-  align-self: center; */
   width: 10.2%;
-  /* height: 105px; */
-  /* margin-bottom: 45px;
-  margin-right: 156px; */
 }
 
 .address {
   margin-left: auto;
-  /* margin-right: 0.9%; */
   margin-top: 0.4%;
   line-height: 1.55rem;
-  /* width: 44.4%; */
 }
 
 /* main */
@@ -90,12 +79,9 @@ body {
 main {
   display: flex;
   flex-direction: column;
-  /* width: 100%; */
   margin-top: 6.3%;
   /* Delete */
   background-color: blue;
-  /* min-width: 1200px;
-  min-height: 600px; */
 }
 
 .cover {
@@ -104,10 +90,7 @@ main {
   background-repeat: no-repeat;
   background-size: cover;
   color: #fff;
-  /* width: 100%; */
-  /* Delete */
   background-color: blueviolet;
-  /* min-height: 200px; */
 }
 
 .overlay {
@@ -144,13 +127,12 @@ main {
 }
 
 .cover__description {
-  margin-top: 10%;
-  margin-bottom: 4.2%;
-  margin-right: 4.5%;
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  grid-template-areas:
-  ". . text text text button";
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 9%;
+  margin-bottom: 3.5%;
+  margin-right: 3.5%;
+  align-items: center;
 }
 
 .cover__description-text {
@@ -158,15 +140,15 @@ main {
   text-align: center;
   font-size: 22px;
   font-weight: 400;
-  line-height: 127.273%;
   text-transform: uppercase;
-  word-spacing: 1.5rem;
+  word-spacing: 1.1rem;
   text-wrap: nowrap;
+  margin-right: 5.7%;
 }
 
 .bet-button {
   grid-area: button;
-  text-align: center;
+  text-align: right;
   color: #FFF;
   font-size: 22px;
   font-weight: 400;
