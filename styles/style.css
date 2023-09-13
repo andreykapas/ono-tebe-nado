@@ -37,7 +37,7 @@ body {
 }
 
 .header__menu {
-  width: 45.1%;
+  width: 45%;
 }
 
 .header__links-list {
@@ -52,7 +52,7 @@ body {
 
 .header__links-list li {
   margin-top: 11.2%;
-  margin-left: 33px;
+  margin-left: 32px;
 }
 
 .header__links-list li:first-child {
@@ -65,13 +65,13 @@ body {
 }
 
 .header__logo {
-  width: 10.2%;
+  width: 10%;
 }
 
 .address {
   margin-left: auto;
-  margin-top: 0.4%;
-  line-height: 1.55rem;
+  margin-top: 0.55%;
+  line-height: 1.5rem;
 }
 
 /* main */
@@ -113,12 +113,12 @@ main {
 
 .aligned-text_center {
   text-align: center;
-  margin: 16px 37px 0 0;
+  margin: 17px 38px 0 0;
 }
 
 .aligned-text_right {
   text-align: right;
-  margin: 10px 20px;
+  margin: 10px 24px;
 }
 
 .letter-spacing-extended {
@@ -131,7 +131,7 @@ main {
   justify-content: flex-end;
   margin-top: 9%;
   margin-bottom: 3.5%;
-  margin-right: 3.5%;
+  margin-right: 3.8%;
   align-items: center;
 }
 
